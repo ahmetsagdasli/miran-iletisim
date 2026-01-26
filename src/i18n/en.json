@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slide1": {
+      "title": "MİRAN COMMUNICATION LOGISTICS",
+      "subtitle": "Tourism Management Consultancy Ind. and Trade Co. Ltd.",
+      "description": "Reliable service as a member of Kızıltepe Chamber of Commerce and Industry since 2022"
+    },
+    "slide2": {
+      "title": "Communication and Technology Solutions",
+      "subtitle": "Telecommunications and Internet Services",
+      "description": "We provide uninterrupted communication solutions with modern infrastructure"
+    },
+    "slide3": {
+      "title": "Logistics and Tourism Services",
+      "subtitle": "Professional Solutions",
+      "description": "Your reliable business partner in logistics, tourism and tour organizations"
+    },
+    "slide4": {
+      "title": "Management Consulting",
+      "subtitle": "Corporate Solutions",
+      "description": "Strategic consulting services to grow your business"
+    },
+    "cta1": "Our Services",
+    "cta2": "Contact Us"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "intro": "As MİRAN COMMUNICATION LOGISTICS TOURISM MANAGEMENT CONSULTANCY, we have been providing professional services in communication, logistics, tourism and consultancy fields as a member of Kızıltepe Chamber of Commerce and Industry since 2022.",
+    "servicesTitle": "Our Service Areas",
+    "servicesDesc": "We offer comprehensive solutions in communication, telecommunications, logistics, tourism, management consultancy and internet access services."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "MİRAN İLETİŞİM LOJİSTİK TURİZM YÖNETİM DANIŞMANLIĞI SAN. VE TİC. LTD. ŞTİ. was established in 2022 and is a member of Kızıltepe Chamber of Commerce and Industry. We offer comprehensive solutions to our customers with our multi-sector activity areas.",
+    "mission": {
+      "title": "Mission",
+      "description": "To optimize business processes and create value by providing the highest quality service to our customers in communication, logistics, tourism and management consulting."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To become Turkey's leading integrated service provider with technology-oriented solutions as a pioneering and innovative company in our sector."
+    },
+    "areas": {
+      "title": "Activity Areas",
+      "description": "We operate in communication, telecommunications, logistics, tourism, management consulting, industrial products and internet access services."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "We are with you with quality technology products",
+    "items": {
+      "electronics": {
+        "title": "Electrical and Electronic Products",
+        "description": "Supply of industrial and commercial electrical and electronic products. We offer quality and reliable solutions."
+      },
+      "computers": {
+        "title": "Computers",
+        "description": "Desktop, laptop computers and all computer accessories. For your corporate and individual needs."
+      },
+      "internet": {
+        "title": "Internet Products",
+        "description": "Fast and uninterrupted internet solutions. Fiber and wireless internet options."
+      },
+      "modem": {
+        "title": "Modems and Similar",
+        "description": "Latest technology modems, routers and network equipment. Professional installation support."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional and reliable service approach",
+    "items": {
+      "telecom": {
+        "title": "Communication - Telecommunications",
+        "description": "We provide corporate communication infrastructure, telephone exchanges and telecommunication solutions."
+      },
+      "logistics": {
+        "title": "Logistics",
+        "description": "Safe and fast logistics services. Domestic and international transportation solutions."
+      },
+      "consulting": {
+        "title": "Management Consulting",
+        "description": "Professional management and strategic consulting services to grow your business."
+      },
+      "tourism": {
+        "title": "Tourism - Travel Tours",
+        "description": "Special tour and travel organizations for unforgettable travel experiences."
+      },
+      "industrial": {
+        "title": "Industrial Products",
+        "description": "Equipment, materials and supply services for the industrial sector."
+      },
+      "internet": {
+        "title": "Internet Access Services",
+        "description": "Corporate internet connection, infrastructure installation and technical support services."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Your Message",
+      "submit": "Send",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Kızıltepe, Mardin / Turkey",
+      "email": "info@miraniletisimlojistiktur.com.tr",
+      "phone": "+90 532 552 59 84",
+      "workHours": "Monday - Saturday: 09:00 - 18:00"
+    },
+    "social": {
+      "title": "Social Media",
+      "whatsapp": "Write on WhatsApp"
+    }
+  },
+  "footer": {
+    "description": "MİRAN İLETİŞİM LOJİSTİK TURİZM YÖNETİM DANIŞMANLIĞI SAN. VE TİC. LTD. ŞTİ. - At your service as a member of Kızıltepe Chamber of Commerce and Industry since 2022.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

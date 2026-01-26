@@ -1,70 +1,154 @@
-# Getting Started with Create React App
+# MİRAN İLETİŞİM LOJİSTİK - Kurumsal Web Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern, profesyonel kurumsal web sitesi - React.js ve Material-UI ile geliştirilmiştir.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- **Multi-Page Yapı**: React Router ile ayrı sayfa navigasyonu
+- **Çok Dilli Destek**: Türkçe ve İngilizce dil seçenekleri
+- **Responsive Tasarım**: Tüm cihazlarda uyumlu görünüm
+- **Modern UI/UX**: Material-UI bileşenleri ile profesyonel tasarım
+- **Animasyonlar**: Framer Motion ile akıcı sayfa geçişleri
+- **Hero Slider**: Otomatik geçişli dinamik slider
+- **Active Link Styling**: Aktif sayfa vurgulaması
+- **Sticky Header**: Her sayfada sabit kalan menü
+- **WhatsApp Entegrasyonu**: Hızlı iletişim butonu
+- **İletişim Formu**: Kullanıcı mesajları için form
 
-### `npm start`
+## Sayfa Yapısı
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Route | Sayfa |
+|-------|-------|
+| `/` | Ana Sayfa (Hero + Tanıtım) |
+| `/hakkimizda` | Hakkımızda |
+| `/urunler` | Ürünler |
+| `/hizmetler` | Hizmetler |
+| `/iletisim` | İletişim |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kurulum
 
-### `npm test`
+### Gereksinimler
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 veya üzeri)
+- npm veya yarn
 
-### `npm run build`
+### Adımlar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Proje klasörüne gidin:
+```bash
+cd miran-website
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Bağımlılıkları yükleyin:
+```bash
+npm install --legacy-peer-deps
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm start
+```
 
-### `npm run eject`
+Uygulama varsayılan olarak http://localhost:3000 adresinde çalışacaktır.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Komutlar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Komut | Açıklama |
+|-------|----------|
+| `npm start` | Geliştirme sunucusunu başlatır |
+| `npm run build` | Prodüksiyon için derler |
+| `npm test` | Testleri çalıştırır |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Proje Yapısı
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/          # Yeniden kullanılabilir bileşenler
+│   ├── Header.js       # Navigasyon menüsü (React Router Link)
+│   ├── Footer.js       # Alt bilgi
+│   ├── HeroSlider.js   # Ana slider
+│   ├── ServiceCard.js  # Hizmet kartı
+│   ├── ProductCard.js  # Ürün kartı
+│   ├── ContactForm.js  # İletişim formu
+│   ├── WhatsAppButton.js # WhatsApp butonu
+│   └── LanguageToggle.js # Dil değiştirici
+├── pages/              # Sayfa bileşenleri
+│   ├── HomePage.js     # Ana Sayfa
+│   ├── AboutPage.js    # Hakkımızda
+│   ├── ProductsPage.js # Ürünler
+│   ├── ServicesPage.js # Hizmetler
+│   └── ContactPage.js  # İletişim
+├── i18n/              # Dil dosyaları
+│   ├── i18n.js       # i18n yapılandırması
+│   ├── tr.json       # Türkçe çeviriler
+│   └── en.json       # İngilizce çeviriler
+├── theme/             # Tema yapılandırması
+│   └── theme.js      # MUI tema ayarları
+├── App.js            # Ana uygulama (Router yapılandırması)
+└── index.js          # Giriş noktası
+```
 
-## Learn More
+## Özelleştirme
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Renk Paleti
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Renk paletini `src/theme/theme.js` dosyasından değiştirebilirsiniz:
 
-### Code Splitting
+```javascript
+palette: {
+  primary: {
+    main: '#1565C0',    // Ana mavi
+    light: '#1976D2',
+    dark: '#0D47A1',
+  },
+  secondary: {
+    main: '#37474F',    // Gri tonları
+  },
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Dil Dosyaları
 
-### Analyzing the Bundle Size
+Çevirileri güncellemek için:
+- Türkçe: `src/i18n/tr.json`
+- İngilizce: `src/i18n/en.json`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### WhatsApp Numarası
 
-### Making a Progressive Web App
+`src/components/WhatsAppButton.js` dosyasında telefon numarasını güncelleyin:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```javascript
+const phoneNumber = '905XXXXXXXXX'; // Gerçek numara ile değiştirin
+```
 
-### Advanced Configuration
+### İletişim Bilgileri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`src/i18n/tr.json` ve `src/i18n/en.json` dosyalarında `contact.info` bölümünü güncelleyin.
 
-### Deployment
+## Prodüksiyon
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Prodüksiyon için derleme:
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Derlenen dosyalar `build/` klasöründe oluşturulacaktır.
+
+## Teknolojiler
+
+- [React.js](https://reactjs.org/) - UI Framework
+- [React Router](https://reactrouter.com/) - Sayfa Yönlendirme
+- [Material-UI (MUI)](https://mui.com/) - Component Library
+- [Framer Motion](https://www.framer.com/motion/) - Animasyonlar
+- [React Slick](https://react-slick.neostack.com/) - Carousel/Slider
+- [i18next](https://www.i18next.com/) - Çok dilli destek
+
+## Lisans
+
+Bu proje MİRAN İLETİŞİM LOJİSTİK için geliştirilmiştir.
+
+---
+
+**MİRAN İLETİŞİM LOJİSTİK TURİZM YÖNETİM DANIŞMANLIĞI SAN. VE TİC. LTD. ŞTİ.**
+Kızıltepe Ticaret ve Sanayi Odası Üyesi - 2022

@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "slide1": {
+      "title": "MİRAN İLETİŞİM LOJİSTİK",
+      "subtitle": "Turizm Yönetim Danışmanlığı San. ve Tic. Ltd. Şti.",
+      "description": "2022'den beri Kızıltepe Ticaret ve Sanayi Odası üyesi olarak güvenilir hizmet"
+    },
+    "slide2": {
+      "title": "İletişim ve Teknoloji Çözümleri",
+      "subtitle": "Telekomünikasyon ve İnternet Hizmetleri",
+      "description": "Modern altyapı ile kesintisiz iletişim çözümleri sunuyoruz"
+    },
+    "slide3": {
+      "title": "Lojistik ve Turizm Hizmetleri",
+      "subtitle": "Profesyonel Çözümler",
+      "description": "Lojistik, turizm ve tur organizasyonlarında güvenilir iş ortağınız"
+    },
+    "slide4": {
+      "title": "Yönetim Danışmanlığı",
+      "subtitle": "Kurumsal Çözümler",
+      "description": "İşletmenizi büyütmek için stratejik danışmanlık hizmetleri"
+    },
+    "cta1": "Hizmetlerimiz",
+    "cta2": "İletişime Geçin"
+  },
+  "home": {
+    "welcome": "Hoş Geldiniz",
+    "intro": "MİRAN İLETİŞİM LOJİSTİK TURİZM YÖNETİM DANIŞMANLIĞI olarak 2022'den beri Kızıltepe Ticaret ve Sanayi Odası üyesi olarak iletişim, lojistik, turizm ve danışmanlık alanlarında profesyonel hizmet sunmaktayız.",
+    "servicesTitle": "Hizmet Alanlarımız",
+    "servicesDesc": "İletişim, telekomünikasyon, lojistik, turizm, yönetim danışmanlığı ve internet erişim hizmetleri alanlarında kapsamlı çözümler sunuyoruz."
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "MİRAN İLETİŞİM LOJİSTİK TURİZM YÖNETİM DANIŞMANLIĞI SAN. VE TİC. LTD. ŞTİ., 2022 yılında kurulmuş olup Kızıltepe Ticaret ve Sanayi Odası üyesidir. Çok sektörlü faaliyet alanlarımızla müşterilerimize kapsamlı çözümler sunmaktayız.",
+    "mission": {
+      "title": "Misyon",
+      "description": "Müşterilerimize iletişim, lojistik, turizm ve yönetim danışmanlığı alanlarında en kaliteli hizmeti sunarak, iş süreçlerini optimize etmek ve değer yaratmak."
+    },
+    "vision": {
+      "title": "Vizyon",
+      "description": "Sektörümüzde öncü ve yenilikçi bir firma olarak, teknoloji odaklı çözümlerle Türkiye'nin önde gelen entegre hizmet sağlayıcısı olmak."
+    },
+    "areas": {
+      "title": "Faaliyet Alanları",
+      "description": "İletişim, telekomünikasyon, lojistik, turizm, yönetim danışmanlığı, sanayi ürünleri ve internet erişim hizmetleri alanlarında faaliyet göstermekteyiz."
+    }
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Kaliteli teknoloji ürünleri ile yanınızdayız",
+    "items": {
+      "electronics": {
+        "title": "Elektrik ve Elektronik Ürünler",
+        "description": "Endüstriyel ve ticari elektrik-elektronik ürünleri tedariki. Kaliteli ve güvenilir çözümler sunuyoruz."
+      },
+      "computers": {
+        "title": "Bilgisayar",
+        "description": "Masaüstü, dizüstü bilgisayarlar ve tüm bilgisayar aksesuarları. Kurumsal ve bireysel ihtiyaçlarınız için."
+      },
+      "internet": {
+        "title": "İnternet Ürünleri",
+        "description": "Hızlı ve kesintisiz internet çözümleri. Fiber ve kablosuz internet seçenekleri."
+      },
+      "modem": {
+        "title": "Modem ve Benzeri",
+        "description": "Son teknoloji modem, router ve ağ ekipmanları. Profesyonel kurulum desteği."
+      }
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Profesyonel ve güvenilir hizmet anlayışı",
+    "items": {
+      "telecom": {
+        "title": "İletişim - Telekomünikasyon",
+        "description": "Kurumsal iletişim altyapısı, telefon santralleri ve telekomünikasyon çözümleri sağlıyoruz."
+      },
+      "logistics": {
+        "title": "Lojistik",
+        "description": "Güvenli ve hızlı lojistik hizmetleri. Yurt içi ve yurt dışı taşımacılık çözümleri."
+      },
+      "consulting": {
+        "title": "Yönetim Danışmanlık",
+        "description": "İşletmenizi büyütmek için profesyonel yönetim ve stratejik danışmanlık hizmetleri."
+      },
+      "tourism": {
+        "title": "Turizm - Tur Gezi Seyahat",
+        "description": "Unutulmaz seyahat deneyimleri için özel tur ve gezi organizasyonları."
+      },
+      "industrial": {
+        "title": "Sanayi Ürünleri",
+        "description": "Sanayi sektörüne yönelik ekipman, malzeme ve tedarik hizmetleri."
+      },
+      "internet": {
+        "title": "İnternet Erişim Hizmetleri",
+        "description": "Kurumsal internet bağlantısı, altyapı kurulumu ve teknik destek hizmetleri."
+      }
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle iletişime geçin",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": "Kızıltepe, Mardin / Türkiye",
+      "email": "info@miraniletisimlojistiktur.com.tr",
+      "phone": "+90 532 552 59 84",
+      "workHours": "Pazartesi - Cumartesi: 09:00 - 18:00"
+    },
+    "social": {
+      "title": "Sosyal Medya",
+      "whatsapp": "WhatsApp ile yazın"
+    }
+  },
+  "footer": {
+    "description": "MİRAN İLETİŞİM LOJİSTİK TURİZM YÖNETİM DANIŞMANLIĞI SAN. VE TİC. LTD. ŞTİ. - 2022'den beri Kızıltepe Ticaret ve Sanayi Odası üyesi olarak hizmetinizdeyiz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "services": "Hizmetlerimiz",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
