@@ -9,6 +9,7 @@ import {
 import SendIcon from '@mui/icons-material/Send';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const { t } = useTranslation();
@@ -30,13 +31,30 @@ const ContactForm = () => {
     e.preventDefault();
     setLoading(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      await emailjs.send(
+        'service_u88l85h',
+        'template_bxp1ux2',
+        {
+          title: 'Yeni İletişim Formu',
+          name: formData.name,
+          email: formData.email,
+          from_name: formData.name,
+          from_email: formData.email,
+          from_phone: formData.phone,
+          phone: formData.phone,
+          message: formData.message,
+        },
+        'wq2S_SXffu8v2VLrd'
+      );
 
-    setStatus({ type: 'success', message: t('contact.form.success') });
-    setFormData({ name: '', email: '', phone: '', message: '' });
+      setStatus({ type: 'success', message: t('contact.form.success') });
+      setFormData({ name: '', email: '', phone: '', message: '' });
+    } catch (error) {
+      setStatus({ type: 'error', message: t('contact.form.error') });
+    }
+
     setLoading(false);
-
     setTimeout(() => setStatus({ type: '', message: '' }), 5000);
   };
 

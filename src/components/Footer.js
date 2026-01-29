@@ -50,16 +50,27 @@ const Footer = () => {
         <Grid container spacing={4}>
           {/* Company Info */}
           <Grid item xs={12} md={4}>
-            <Typography
-              variant="h5"
-              sx={{
-                fontWeight: 700,
-                mb: 2,
-                color: 'white',
-              }}
-            >
-              MİRAN
-            </Typography>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+              <Box
+                component="img"
+                src="/logo.png"
+                alt="MİRAN Logo"
+                sx={{
+                  height: 70,
+                  width: 'auto',
+                  mr: 1.5,
+                }}
+              />
+              <Typography
+                variant="h5"
+                sx={{
+                  fontWeight: 700,
+                  color: 'white',
+                }}
+              >
+                MİRAN
+              </Typography>
+            </Box>
             <Typography
               variant="body2"
               sx={{
@@ -178,7 +189,7 @@ const Footer = () => {
               <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
                 <Email sx={{ color: 'primary.light' }} />
                 <Link
-                  href="mailto:info@miraniletisimlojistiktur.com.tr"
+                  href="mailto:miran.iletisimlojistik@hotmail.com"
                   sx={{
                     color: 'rgba(255,255,255,0.7)',
                     textDecoration: 'none',

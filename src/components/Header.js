@@ -143,6 +143,16 @@ const Header = () => {
                 textDecoration: 'none',
               }}
             >
+              <Box
+                component="img"
+                src="/logo.png"
+                alt="MİRAN Logo"
+                sx={{
+                  height: { xs: 55, md: 70 },
+                  width: 'auto',
+                  mr: 1.5,
+                }}
+              />
               <Typography
                 variant="h5"
                 sx={{
